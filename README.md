@@ -1,16 +1,21 @@
-## Hi there 👋
+# Max Bilişim - başlangıç projesi
 
-<!--
-**maxbilisim/maxbilisim** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Bu depo, Koyeb üzerinde yayınlanabilecek temel Node.js/Express web sitesi başlangıcıdır.
 
-Here are some ideas to get you started:
+## Yerel çalıştırma
+1. Node.js 20 veya üzerini kurun.
+2. `npm install`
+3. `npm start`
+4. Tarayıcıda `http://localhost:8000` adresini açın.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Koyeb
+- Builder: Buildpack
+- Run command: `npm start`
+- Port: `8000`
+- Health check path: `/health`
+
+## Güvenlik
+Gerçek Discord bot tokeni, OAuth secret, veritabanı parolası veya ödeme anahtarlarını GitHub'a yüklemeyin. Bunlar Koyeb'in Environment variables / Secrets alanına girilmelidir.
+
+## Sonraki geliştirme aşamaları
+Bu yalnızca yayın testi için başlangıç iskeletidir. Discord OAuth, veritabanı, müşteri hesapları, hizmet/sipariş/ödeme sistemleri, admin paneli ve Discord botu henüz eklenmemiştir.
